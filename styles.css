@@ -4,12 +4,12 @@
 
 .text-container {
     float: left;
-    width: 70%; /* Adjust this value to set the width of the text container */
+    width: 90%; /* Adjust this value to set the width of the text container */
 }
 
 .right-aligned-image {
     float: right;
-    width: 30%; /* Adjust this value to set the width of the image */
+    width: 10%; /* Adjust this value to set the width of the image */
     height: auto; /* Maintain aspect ratio */
     margin-left: 15px; /* Adjust this value to add space between the image and the text */
 }
