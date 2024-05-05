@@ -13,3 +13,17 @@
     height: auto; /* Maintain aspect ratio */
     margin-left: 15px; /* Adjust this value to add space between the image and the text */
 }
+
+/* Media query for landscape orientation */
+@media screen and (orientation: landscape) {
+    .right-aligned-image {
+        width: 10%; /* Set a smaller width for landscape orientation */
+    }
+}
+
+/* Media query for portrait orientation */
+@media screen and (orientation: portrait) {
+    .right-aligned-image {
+        width: 40%; /* Set a larger width for portrait orientation */
+    }
+}
